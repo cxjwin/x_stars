@@ -1,0 +1,38 @@
+{
+  "name": "x-stars",
+  "version": "0.1.0",
+  "description": "Export and analyze X/Twitter bookmarks and likes with the official X API or a dedicated browser profile.",
+  "type": "module",
+  "bin": {
+    "x-stars": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli.ts",
+    "export": "tsx src/cli.ts export",
+    "test": "vitest run",
+    "test:live": "vitest run tests/live",
+    "test:api": "vitest run tests/live/api.live.test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "x",
+    "twitter",
+    "bookmarks",
+    "likes",
+    "export"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

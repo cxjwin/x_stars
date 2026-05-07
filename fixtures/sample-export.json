@@ -1,0 +1,29 @@
+{
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "source": "api",
+  "kind": "bookmarks",
+  "totalCount": 1,
+  "range": {
+    "newestTweetAt": "2026-01-01T00:00:00.000Z",
+    "oldestTweetAt": "2026-01-01T00:00:00.000Z"
+  },
+  "tweets": [
+    {
+      "id": "1234567890123456789",
+      "url": "https://x.com/example/status/1234567890123456789",
+      "authorName": "Example User",
+      "authorHandle": "example",
+      "authorUrl": "https://x.com/example",
+      "content": "This is anonymized fixture data for tests and documentation.",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "date": "2026-01-01T00:00:00.000Z",
+      "likes": "1",
+      "retweets": "0",
+      "replies": "0",
+      "mediaUrls": [],
+      "quotedTweet": null,
+      "isRetweet": false,
+      "retweetedBy": ""
+    }
+  ]
+}
